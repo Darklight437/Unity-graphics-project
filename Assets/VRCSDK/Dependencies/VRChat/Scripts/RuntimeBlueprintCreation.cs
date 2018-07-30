@@ -38,7 +38,7 @@ namespace VRCSDK2
             base.Start();
 
             Application.runInBackground = true;
-            UnityEngine.VR.VRSettings.enabled = false;
+            UnityEngine.XR.XRSettings.enabled = false;
 
             uploadButton.onClick.AddListener(SetupUpload);
                
